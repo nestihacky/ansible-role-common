@@ -14,8 +14,7 @@
   authorized_key:
     user: root
     key: "{{ item }}"
-  with_file: common_ssh_keys
-  when: common_ssh_keys is defined
+  with_file: "{{ common_ssh_keys }}"
 
 - name: allow cron for users
   file: path=/etc/cron.deny state=absent

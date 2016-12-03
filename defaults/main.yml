@@ -15,3 +15,4 @@ common_hosts_add:
   # - "1.2.3.4 example.org"
 
 common_firewalld: false
+common_ssh_keys: []
