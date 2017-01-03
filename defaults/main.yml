@@ -16,3 +16,4 @@ common_hosts_add:
 
 common_firewalld: false
 common_ssh_keys: []
+common_selinux: true
