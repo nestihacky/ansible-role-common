@@ -3,6 +3,8 @@ common_install_packages:
   - screen
   - tmux
   - openssl
+  - vim
+  - policycoreutils-python
 
 common_remove_packages:
   - ModemManager
